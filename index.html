@@ -3,7 +3,24 @@
 		<title>Mkaul Grace</title>
 	</head>
 	<body ng-app="mkaul">
-		<h1 class="col-xs-8 col-xs-offset-2 jumbotron" ng-controller="homeController">{{display}}</h1>
+        <div ng-controller="homeController">
+            <h1 class="col-xs-12 jumbotron" >{{display}}</h1>
+            <div class="row">
+                <div class="col-xs-3" ng-repeat="item in items">
+                    <a href="#" class="thumbnail">
+                        <img ng-src="{{item.src}}" alt="{{item.name}}">
+                    </a>
+                    <div class="caption">
+                        <h3>{{item.title}}</h3>
+                        <p>{{item.description}}</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Share</a> 
+                            <a href="#" class="btn btn-default" role="button">Add to cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</body>
 
 	<!-- AngularJS -->
