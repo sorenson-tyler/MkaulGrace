@@ -9,42 +9,49 @@ myapp.controller('homeController', function($scope) {
             src: 'Images/IMG_6403.jpg',
             name: 'Indie',
             title: 'Beautiful Bib',
-            description: 'Take this lovely bad boy for a spin'
+            description: 'Take this lovely bad boy for a spin',
+            active: true
         },
         {
             src: 'Images/IMG_6377.jpg',
             name: 'Indie',
             title: 'Beautiful Bib',
-            description: 'Take this lovely bad boy for a spin'
+            description: 'Take this lovely bad boy for a spin',
+            active: false
         },
         {
             src: 'Images/IMG_6614.jpg',
             name: 'Indie',
             title: 'Beautiful Bib',
-            description: 'Take this lovely bad boy for a spin'
+            description: 'Take this lovely bad boy for a spin',
+            active: false
         },
         {
             src: 'Images/IMG_6403.jpg',
             name: 'Indie',
             title: 'Beautiful Bib',
-            description: 'Take this lovely bad boy for a spin'
+            description: 'Take this lovely bad boy for a spin',
+            active: false
         },
         {
             src: 'Images/IMG_6377.jpg',
             name: 'Indie',
             title: 'Beautiful Bib',
-            description: 'Take this lovely bad boy for a spin'
+            description: 'Take this lovely bad boy for a spin',
+            active: false
         },
         {
             src: 'Images/IMG_6614.jpg',
             name: 'Indie',
             title: 'Beautiful Bib',
-            description: 'Take this lovely bad boy for a spin'
+            description: 'Take this lovely bad boy for a spin',
+            active: false
         },
         {
             src: 'Images/IMG_6403.jpg',
             name: 'Indie',
             title: 'Beautiful Bib',
-            description: 'Take this lovely bad boy for a spin'
+            description: 'Take this lovely bad boy for a spin',
+            active: false
         }]
 });
