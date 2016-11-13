@@ -1,0 +1,11 @@
+<div class="well" style="margin: 50px;">
+	<h1>Shopping Cart<i class="pull-right fa fa-close" ng-click="returnToItems()"></i></h1>
+		<div class="list-group">
+			<a class="list-group-item" ng-repeat="item in inCart">
+				<h4 class="list-group-item-heading">{{item.title}}<i class="pull-right fa fa-trash" ng-click="removeFromCart(item)"></i></h4>
+				<p class="list-group-item-text">${{item.price}}</p>
+			</a>
+		</div>
+		<div>
+		<h4 ng-if="inCart.length <= 0">Nothing in cart...</h4>
+</div>
